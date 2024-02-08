@@ -1,0 +1,133 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: #507485;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.edited-header {
+  color: #1b9edb;
+  padding: 10px 5px;
+}
+
+.header-subtext {
+  font-size: 0.4em;
+  vertical-align: top;
+  color: #33abe279;
+}
+
+input[type='text'] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  background-color: #1b9edb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin: 5px 0;
+  padding: 2px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #757575;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+.intro-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px 20px;
+  margin: 10px;
+}
+
+.intro-container h1 {
+  color: #333;
+  margin-top: 0;
+}
+
+.intro-container p {
+  color: #666;
+}
+
+.intro-container input[type='text'] {
+  border: 2px solid #1b9edb;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.intro-container button {
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.intro-container ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.intro-container li {
+  border-left: 4px solid #1b9edb;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: fit-content;
+}
